@@ -1,0 +1,71 @@
+.app-container {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.game-list {
+  margin-bottom: 30px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.game-view {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hole-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.hole-row span {
+  display: inline-block;
+  width: 80px;
+}
+
+.hole-row button {
+  margin: 0 2px;
+  padding: 2px 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.hole-row button.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.team-red {
+  color: red;
+  font-weight: bold;
+}
+
+.team-blue {
+  color: blue;
+  font-weight: bold;
+}
+
+.course-form input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.course-form {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 60px;
+}

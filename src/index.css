@@ -1,0 +1,17 @@
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+input {
+  margin: 2px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
